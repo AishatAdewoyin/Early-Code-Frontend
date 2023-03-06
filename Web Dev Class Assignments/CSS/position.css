@@ -1,0 +1,41 @@
+.one{
+   width: 200px;
+   height: 200px;
+   background-color: red;
+   text-align: center;
+   font-size: larger;
+   position: relative;
+}
+
+.two{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    text-align: center;
+    font-size: larger;
+    position: relative;
+    bottom: 160px;
+    left: 160px;
+}
+
+.three{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    text-align: center;
+    font-size: larger;
+    position: relative;
+    bottom: 320px;
+    left: 320px;
+}
+
+.four{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    text-align: center;
+    font-size: larger;
+    position: relative;
+    bottom: 480px;
+    left: 480px;
+}    

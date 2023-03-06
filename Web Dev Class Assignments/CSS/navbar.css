@@ -1,0 +1,102 @@
+*{
+  box-sizing: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.brand{
+  background-color:rgb(255, 0, 140);  
+  display: flex;
+  }
+
+.brandclass{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.brandname{
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+}
+
+.image{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-items: center;
+  margin: 10px;
+}
+
+.navlinks{
+   display: flex;
+   font-size: large;
+   list-style: none;
+   gap: 20px;
+   align-items: center;
+   margin-left: 60vw;
+}
+
+.links{
+  text-decoration: none;
+  color: white;
+}
+
+.links:hover{
+  color: yellow;
+}
+
+/************************************** second nav bar *********************************/
+.kaltum{
+   display: flex;
+   background-color: rgb(255, 0, 242);
+   align-items: center;
+
+}
+
+.brandclass1{
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  gap: 20px;
+}
+.brandname2{
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  margin: 5px;
+
+}
+
+.searchbar{
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.searchbar #bar{
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  width: 400px;
+  align-items: center;
+}
+
+.kaltumlinks{
+  display: flex;
+  list-style: none;
+  padding-left: 34vw;
+  gap: 20px;
+}
+
+
+.links1{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 200;
+}

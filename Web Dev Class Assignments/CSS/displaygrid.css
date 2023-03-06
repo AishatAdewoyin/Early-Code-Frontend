@@ -1,0 +1,44 @@
+.wrap{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap: 20px;
+    background-color: rgb(2, 16, 75);
+    padding: 150px;
+    }
+
+.wrap div{
+   border: none;
+   background-color: rgb(3, 153, 3);
+   padding: 80px;
+   }
+
+.wrap div:nth-child(even){
+    background-color: yellow;
+    }
+
+.first{
+    grid-row: span 3;
+    background-color: rgb(0, 153, 3);
+    } 
+
+.wrap div:nth-child(2){
+    grid-column: span 2;
+    background-color: rgb(0, 153, 3);
+    }
+
+.wrap div:nth-child(6){
+    grid-row: span 2;
+    background-color: rgb(0, 153, 3);
+    }
+
+.wrap div:nth-child(3){
+    background-color: red;
+    }
+
+.wrap div:nth-child(5){
+    background-color: red;
+    }
+
+.wrap div:nth-child(7){
+    background-color: red;
+    }

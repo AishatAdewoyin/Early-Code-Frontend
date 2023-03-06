@@ -1,0 +1,52 @@
+body{
+    background-color: aqua;
+}
+
+div{
+    background-color: white;
+    border: coral;
+    border-width: 5px;
+    border-style: solid;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* td{
+    vertical-align: 40px;
+} */
+
+h1{
+    text-align: center;
+    color: orangered;
+}
+
+
+h2{
+    color: orange;
+    margin-right: 22cm;
+    }
+
+h3{
+    color: rgb(47, 0, 255);
+    margin-right: 22cm;
+}
+
+h3:hover {
+    color: white;
+    background-color: blue;
+}
+
+.heading{
+    border: orange;
+    border-style:groove;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px 50px;
+   }
+   
+/* white-space: nowrap; */
+
+   #image{
+    border:  orange;
+    border-style: solid;
+   }

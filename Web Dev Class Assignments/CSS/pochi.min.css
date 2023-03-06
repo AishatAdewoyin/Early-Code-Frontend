@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background-color: #00FFD1;
+}
+
+h1 , h2{
+    color: #FF1E1E;
+}
+
+h2{
+    padding-top: 20px;
+}
+
+.mx-5{
+    margin: 10px;
+    width: 98%;
+    align-self: center;
+}
+
+table{
+    margin-bottom: 20px;
+}
+td{
+    border-spacing: 5px;
+}
+
+.pochi{
+    width: 350px;
+}

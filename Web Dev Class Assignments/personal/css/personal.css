@@ -1,0 +1,10 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: linear-gradient(to right blue, red);
+    border: 2px solid;
+}
+
+body{
+    background-color: blue;
+}
